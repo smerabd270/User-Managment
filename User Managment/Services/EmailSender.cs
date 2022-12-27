@@ -9,8 +9,8 @@ namespace User_Managment.Services
     {
         public  async Task SendEmailAsync(string email, string subject, string htmlMessage)
         {
-            var fromMail = "amerabd270@gmail.com";
-            var fromMailPassword = "369504*Meet";
+            var fromMail = "enter your mail";
+            var fromMailPassword = "enter password";
             var message = new MailMessage();
             message.From = new MailAddress(fromMail);
             message.Subject = subject;
